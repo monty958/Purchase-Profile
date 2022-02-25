@@ -230,7 +230,7 @@ def purchasePage(itemInfo, employeeInfo, totalPrice):
         checkMenu = input("Go to Menu (yes/no)? ")
     if checkMenu.lower() == "yes":
         main()
-        return itemInfo, employeeInfo, totalPrice, tempPrice
+        return itemInfo, employeeInfo, totalPrice
     elif checkMenu.lower() == "no":
         print("Have a nice day!")
         exit()
